@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/products_100.csv") #create dataframe by reading csv with pandas
+df = pd.read_csv("data/generated_products.csv") #create dataframe by reading csv with pandas
 df = df.dropna() #remove any empty values
 
 #get total value of each product in system and assign it to a variable
